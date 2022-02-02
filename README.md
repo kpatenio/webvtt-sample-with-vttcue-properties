@@ -21,6 +21,7 @@ npx http-server --cors -c-1
 Otherwise, be sure to follow the steps below:
 1. Run `npm install` to install all `package.json` dependencies
 2. Run `npm start`
+3. Select one of the links outputted to open a local copy of the page
 
 ## Running Locally Using Other Methods
 You may use any other static server and/or package manager, if you wish. Note that without a static server, vtt text tracks will not properly load onto the video file due to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) limitations.

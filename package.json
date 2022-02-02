@@ -1,0 +1,23 @@
+{
+  "name": "webvtt_vttcue_styles",
+  "version": "1.0.0",
+  "description": "Sample page for testing webvtt and vttcue properties",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server --cors -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpatenio/webvtt-sample-with-vttcue-properties.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpatenio/webvtt-sample-with-vttcue-properties/issues"
+  },
+  "homepage": "https://github.com/kpatenio/webvtt-sample-with-vttcue-properties#readme",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
