@@ -5,12 +5,18 @@
   <meta charset="UTF-8">
   <style>
     body {
-      margin: auto;
+      margin: 0;
       text-align: center;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      height: 100vh;
+      width: 100vw;
     }
     h1 {
         top:10%;
+    }
+    video {
+      height:70%;
+      width: 70%;
     }
   </style>
 </head>
@@ -24,6 +30,14 @@
       <source src="./videos/potus_3012_original.webm" type="video/webm"/>
       <track label="styled captions" kind="captions" srclang="en" src="./texttracks/styled.vtt" default />
       <track label="default captions" kind="captions" srclang="en" src="./texttracks/unstyled.vtt" />
+      <script>
+        let video = document.querySelector("video");
+        if (video) {
+          // Audio might be a little too loud.
+          // Lower the default volume.
+          video.volume = 0.2;
+        }
+      </script>
   </main>
   <footer>
     <p>Video created by
