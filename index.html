@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WebVTT Sample Video with VTTCue Properties</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: auto;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h1 {
+        top:10%;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Sample Video</h1>
+    </header>
+  <main>
+    <video crossorigin="anonymous" controls>
+      <source src="./videos/potus_3012_original.mp4" type="video/mp4"/>
+      <source src="./videos/potus_3012_original.webm" type="video/webm"/>
+      <track label="styled captions" kind="captions" srclang="en" src="./texttracks/styled.vtt" default />
+      <track label="default captions" kind="captions" srclang="en" src="./texttracks/unstyled.vtt" />
+  </main>
+  <footer>
+    <p>Video created by
+        <a href="https://vimeo.com/58460459" target="_blank">beeple</a>
+        and licensed under Creative Commons.
+    </p>
+  </footer>
+</body>
+</html>

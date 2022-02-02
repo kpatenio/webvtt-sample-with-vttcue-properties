@@ -1,0 +1,49 @@
+WEBVTT FILE
+
+NOTE: defaults are line:"auto", snapToLines:true, lineAlign: "start",
+position: "auto", positionAlign: "auto", size:100
+
+00:00:00.000 --> 00:00:02.000
+Bottom cue
+
+00:00:02.000 --> 00:00:04.000
+Bottom right cue
+
+00:00:04.000 --> 00:00:06.000
+Bottom left cue
+
+00:00:06.000 --> 00:00:08.000
+Top cue
+
+00:00:08.000 --> 00:00:10.000
+Top right cue
+
+00:00:10.000 --> 00:00:12.000
+Top left cue
+
+00:00:12.000 --> 00:00:14.000
+Left cue
+
+00:00:14.000 --> 00:00:16.000
+Right cue
+
+00:00:16.000 --> 00:00:18.000
+Center cue
+
+00:00:18.000 --> 00:00:20.000
+Vertical left to right
+
+00:00:18.000 --> 00:00:20.000
+Vertical right to left
+
+00:00:20.000 --> 00:00:22.000
+This is longer text to test cue size. Notice centered alignment.
+
+00:00:22.000 --> 00:00:24.000
+This is the same cue size. Notice start alignment.
+
+00:00:22.000 --> 00:00:24.000
+This is the same cue size. Notice end alignment.
+
+00:00:24.000 --> 00:00:26.000
+This is size 100%. Now test this with much longer text. It should go across video width.
