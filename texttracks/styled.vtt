@@ -55,3 +55,9 @@ This is the same cue size. Notice end alignment.
 
 00:00:24.000 --> 00:00:26.000 line:50% position:0% size:100% align:start
 This is size 100%. Now test this with much longer text. It should go across video width.
+
+00:00:26.000 --> 00:00:28.000 line:2
+Integer used for line number. Defined first.
+
+00:00:26.000 --> 00:00:28.000 line:1
+Integer used for line number. Defined last.
