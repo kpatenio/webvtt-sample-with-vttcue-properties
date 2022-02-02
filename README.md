@@ -2,6 +2,11 @@
 
 This is sample code testing different VTTCue properties using WebVTT.
 
+## Demo
+https://curious-johnson-055a5e.netlify.app/
+
+Deployed using [Netlify](https://www.netlify.com/):
+
 ## Running Locally with Node
 This demo uses [Node](https://nodejs.org/en/) and the [Node Package Manager](https://www.npmjs.com/). The npm package [http-server](https://www.npmjs.com/package/http-server) is used to statically host video and vtt files.
 
