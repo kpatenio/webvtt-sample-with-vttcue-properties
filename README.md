@@ -3,7 +3,7 @@
 This is sample code testing different VTTCue properties using WebVTT.
 
 ## Running Locally with Node
-This demo uses [Node](https://nodejs.org/en/) and the [Node Package Manager](https://www.npmjs.com/). The npm package [https://www.npmjs.com/package/http-server](http-server) is used to statically host video and vtt files.
+This demo uses [Node](https://nodejs.org/en/) and the [Node Package Manager](https://www.npmjs.com/). The npm package [http-server](https://www.npmjs.com/package/http-server) is used to statically host video and vtt files.
 
 Requirements:
 1. Node + npm and/or npx
@@ -23,7 +23,7 @@ Otherwise, be sure to follow the steps below:
 2. Run `npm start`
 
 ## Running Locally Using Other Methods
-You may use any other static server and/or package manager, if you wish. Note that Without a static server, vtt text tracks will not properly load onto the video file due to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) limitations.
+You may use any other static server and/or package manager, if you wish. Note that without a static server, vtt text tracks will not properly load onto the video file due to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) limitations.
 
 ## Properties
 The cue properties below determine how text tracks appear on a video:
