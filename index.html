@@ -36,6 +36,18 @@
           // Audio might be a little too loud.
           // Lower the default volume.
           video.volume = 0.2;
+
+          video.textTracks[0].oncuechange = () => {
+            // To test snap-to-line flag, set to false
+            // for last two cues of styled track
+            let cues = video.textTracks[0].activeCues;
+            for (let cue of cues) {
+              if (cue.id.includes("snapToLines")) {
+                console.log("Overriding...")
+                cue.snapToLines = false;
+              }
+            }
+          }
         }
       </script>
   </main>

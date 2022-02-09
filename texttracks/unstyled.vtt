@@ -53,3 +53,11 @@ Integer used for line number. Defined first.
 
 00:00:26.000 --> 00:00:28.000
 Integer used for line number. Defined last.
+
+snapToLines1
+00:00:28.000 --> 00:00:30.000
+Defined first - line 2 cue - snap flag overriden.
+
+snapToLines2
+00:00:28.000 --> 00:00:30.000
+Defined last - line 1 cue - snap flag overriden.
