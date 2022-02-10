@@ -49,6 +49,28 @@
               }
             }
           }
+          video.textTracks[1].oncuechange = () => {
+            // To test snap-to-line flag, set to false
+            // for last two cues of styled-integer track
+            let cues = video.textTracks[1].activeCues;
+            for (let cue of cues) {
+              if (cue.id.includes("snapToLines")) {
+                console.log("Overriding...")
+                cue.snapToLines = false;
+              }
+            }
+          }
+          video.textTracks[2].oncuechange = () => {
+            // To test snap-to-line flag, set to false
+            // for last two cues of default track
+            let cues = video.textTracks[2].activeCues;
+            for (let cue of cues) {
+              if (cue.id.includes("snapToLines")) {
+                console.log("Overriding...")
+                cue.snapToLines = false;
+              }
+            }
+          }
         }
       </script>
   </main>
