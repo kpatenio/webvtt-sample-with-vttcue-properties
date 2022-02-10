@@ -1,8 +1,5 @@
 WEBVTT FILE
 
-NOTE: defaults are line:"auto", snapToLines:true, lineAlign: "start",
-position: "auto", positionAlign: "auto", size:100
-
 00:00:00.000 --> 00:00:02.000
 Bottom cue
 
@@ -52,11 +49,17 @@ This is size 100%. Now test this with much longer text. It should go across vide
 Integer used for line number. Defined first.
 
 00:00:26.000 --> 00:00:28.000
+Integer used for line number. Defined halfway-through.
+
+00:00:26.000 --> 00:00:28.000
 Integer used for line number. Defined last.
 
 snapToLines1
 00:00:28.000 --> 00:00:30.000
 Defined first - line 2 cue - snap flag overriden.
+
+00:00:28.000 --> 00:00:30.000
+Integer used for line number. Defined halfway-through.
 
 snapToLines2
 00:00:28.000 --> 00:00:30.000

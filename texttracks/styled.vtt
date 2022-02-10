@@ -1,12 +1,8 @@
 WEBVTT FILE
 
-NOTE: when `line` is altered to use an integer or a percentage, the
-the `snap-to-lines` flag is set to false. Otherwise, it is set to true,
-and the line property defaults to "auto".
-See https://w3c.github.io/webvtt/#webvtt-cue-snap-to-lines-flag for more information.
-
-Update: snap-to-lines can technically be overrided, if we wish to not use line or percentage
-to determine cue order.
+NOTE: line is default "auto" and snapToLines is default true. But both can be modified.
+Setting snapToLines to false will render cues as if "auto", regardless if line number or percentage.
+Percentage does NOT affect cue order, simply affects positioning.
 
 00:00:00.000 --> 00:00:02.000 line:100%
 Bottom cue
@@ -63,16 +59,23 @@ This is the same cue size. Notice end alignment.
 00:00:24.000 --> 00:00:26.000 line:50% position:0% size:100% align:start
 This is size 100%. Now test this with much longer text. It should go across video width.
 
-00:00:26.000 --> 00:00:28.000 line:2
+00:00:26.000 --> 00:00:28.000 line:90%
 Integer used for line number. Defined first.
 
-00:00:26.000 --> 00:00:28.000 line:1
+00:00:26.000 --> 00:00:28.000 line:10%
+Integer used for line number. Defined halfway-through.
+
+00:00:26.000 --> 00:00:28.000 line:50%
 Integer used for line number. Defined last.
 
 snapToLines1
-00:00:28.000 --> 00:00:30.000 line:2
+00:00:28.000 --> 00:00:30.000 line:90%
 Defined first - line 2 cue - snap flag overriden.
 
+snapToLines3
+00:00:28.000 --> 00:00:30.000 line:10%
+Integer used for line number. Defined halfway-through.
+
 snapToLines2
-00:00:28.000 --> 00:00:30.000 line:1
+00:00:28.000 --> 00:00:30.000 line:50%
 Defined last - line 1 cue - snap flag overriden.
