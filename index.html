@@ -28,8 +28,9 @@
     <video crossorigin="anonymous" controls>
       <source src="./videos/potus_3012_original.mp4" type="video/mp4"/>
       <source src="./videos/potus_3012_original.webm" type="video/webm"/>
-      <track label="styled captions" kind="captions" srclang="en" src="./texttracks/styled.vtt" default />
-      <track label="default captions" kind="captions" srclang="en" src="./texttracks/unstyled.vtt" />
+      <track label="styled captions (percent in the end)" kind="captions" srclang="en" src="./texttracks/styled.vtt" default />
+      <track label="styled captions (integer in the end)" kind="captions" srclang="en" src="./texttracks/styled-integer.vtt" />
+      <track label="default captions (percent in the end)" kind="captions" srclang="en" src="./texttracks/unstyled.vtt" />
       <script>
         let video = document.querySelector("video");
         if (video) {

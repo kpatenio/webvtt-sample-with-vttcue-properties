@@ -59,23 +59,23 @@ This is the same cue size. Notice end alignment.
 00:00:24.000 --> 00:00:26.000 line:50% position:0% size:100% align:start
 This is size 100%. Now test this with much longer text. It should go across video width.
 
-00:00:26.000 --> 00:00:28.000 line:90%
-Percentage used for line number. Defined first.
+00:00:26.000 --> 00:00:28.000 line:2
+Integer used for line number. Defined first.
 
-00:00:26.000 --> 00:00:28.000 line:10%
-Percentage used for line number. Defined halfway-through.
+00:00:26.000 --> 00:00:28.000 line:3
+Integer used for line number. Defined halfway-through.
 
-00:00:26.000 --> 00:00:28.000 line:50%
-Percentage used for line number. Defined last.
+00:00:26.000 --> 00:00:28.000 line:1
+Integer used for line number. Defined last.
 
 snapToLines1
-00:00:28.000 --> 00:00:30.000 line:90%
-Defined first - percentage - snap flag overriden.
+00:00:28.000 --> 00:00:30.000 line:2
+Defined first - integer - snap flag overriden.
 
 snapToLines3
-00:00:28.000 --> 00:00:30.000 line:10%
-Defined halfway-through - percentage - snap flag overriden.
+00:00:28.000 --> 00:00:30.000 line:3
+Defined halfway-through - integer - snap flag overriden.
 
 snapToLines2
-00:00:28.000 --> 00:00:30.000 line:50%
-Defined last - percentage - snap flag overriden.
+00:00:28.000 --> 00:00:30.000 line:1
+Defined last - integer - snap flag overriden.
